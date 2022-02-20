@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- MY OWN STYLESHEETS 👍  -->
+  <style>
+  
+body{
+  background-color: hsl(217, 54%, 11%);
+
+}
+
+.card{
+background-color:  hsl(216, 50%, 16%);
+width: 280px;
+height: auto;
+border-radius: 10px;
+padding: 10px;
+overflow: hidden;
+box-shadow: 2px 5px 5px hsl(219, 64%, 9%));
+color:hsl(215, 51%, 70%);
+position:relative;
+top:90px;
+left:500px;
+transition: 0.1s ease-out;
+
+}
+
+
+.card:hover{
+position: absolute;
+top: 65px ;
+left:500px;
+
+
+}
+
+
+
+
+
+
+
+.equil-img{
+width: 250px;
+height: 200px;
+border-radius: 10px;
+padding-left: 8px;
+
+}
+
+.card h2{
+color: white;
+}
+
+.icons{
+  display:flex;
+ justify-content: space-around;
+ padding: 10px;
+
+}
+
+#icons-img{
+  width: 15px;
+  height: 15px;
+
+}
+.eth{
+  color: cyan;
+}
+
+.creator{
+  display: flex;
+
+
+}
+
+.w{
+padding-top: 14px;
+padding-left: 6px;
+}
+
+
+
+
+
+#avatar-img{
+  width: 35px;
+  height: 35px;
+border:1px  solid white;
+border-radius: 20px;
+margin: 5px;
+}
+
+.title{
+font-weight: 600;
+font-size: 20px;
+color: white;
+padding-top: 8px ;
+
+}
+p{
+  font-size: 18px;
+}
+
+.name{
+color:white ;
+
+}
+
+.card bold{
+  color:white;
+}
+
+
+
+
+  </style>
+
+
+</head>
+<body>
+     <div class="card">
+           <img src="./images/image-equilibrium.jpg" alt="" class="equil-img" id="equil" >
+                <br>
+                   <span class="title"> Equilibrium #3429</span>        
+                  <p>Our Equilibrium collection promotes balance and calm</p> 
+
+                 <div class="icons">
+
+                         <div class="eth">
+                          <img src="./images/icon-ethereum.svg" alt="" id="icons-img"> 0.041 ETH
+                         </div>
+
+                       <div class="time">
+                            <img src="./images/icon-clock.svg"  alt="" id="icons-img">
+                        3 days left
+                
+                      </div>
+
+                   </div>
+ 
+
+           <hr style="color: hsl(215, 51%, 70%) ;  width:95%;" >
+
+              <div class="creator">
+
+          <img src="./images/Snapchat-1176863457 (2).jpg"alt="" id="avatar-img"> 
+<div class="w"> Creation of  <a src="www.twitter.com/trustworthy0">ABK</a></div> 
+         </div>
+
+      </div>
+
+
+<script>
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
